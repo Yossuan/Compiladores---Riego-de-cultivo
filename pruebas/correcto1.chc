@@ -1,0 +1,6 @@
+humedad = 25
+si humedad < 30 entonces
+regar 10
+sino
+regar 5
+fin

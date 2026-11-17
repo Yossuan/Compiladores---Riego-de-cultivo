@@ -1,0 +1,7 @@
+largo = 8
+ancho = 5
+area = largo * ancho
+total = area + 10
+si total > 40 entonces
+regar total
+fin
