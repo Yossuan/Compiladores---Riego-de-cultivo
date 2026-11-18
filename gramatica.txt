@@ -1,0 +1,28 @@
+# Gramática de ChocóCode (Formato BNF)
+
+<programa> ::= <instruccion>*
+
+<instruccion> ::= <asignacion> 
+                | <instruccion_regar>
+                | <instruccion_medir>
+                | <instruccion_fertilizar>
+                | <instruccion_cosechar>
+                | <condicional>
+                | <repeticion>
+
+<asignacion> ::= ID "=" <expresion>
+
+<expresion> ::= <termino> ( ("+" | "-" | "*") <termino> )*
+<termino> ::= NUMERO | ID
+
+<instruccion_regar> ::= "regar" <expresion>
+<instruccion_medir> ::= "medir" ID
+<instruccion_fertilizar> ::= "fertilizar" <expresion>
+<instruccion_cosechar> ::= "cosechar"
+
+<condicional> ::= "si" <condicion> "entonces" <instruccion>* "sino" <instruccion>* "fin"
+                | "si" <condicion> "entonces" <instruccion>* "fin"
+
+<condicion> ::= <expresion> (">" | "<" | "==") <expresion>
+
+<repeticion> ::= "repetir" <expresion> "veces" <instruccion>* "fin"
