@@ -1,0 +1,45 @@
+=== RESULTADOS DE LAS PRUEBAS ===
+
+=== Probando: correcto1.chc ===
+✅ COMPILACIÓN EXITOSA
+Comandos generados:
+  - // CONDICIONAL INICIADO
+  - REGAR 10
+  - REGAR 5
+  - // FIN DE BLOQUE
+
+=== Probando: correcto2.chc ===
+✅ COMPILACIÓN EXITOSA
+Comandos generados:
+  - // BUCLE INICIADO
+  - FERTILIZAR 2
+  - // FIN DE BLOQUE
+
+=== Probando: correcto3.chc ===
+✅ COMPILACIÓN EXITOSA
+Comandos generados:
+  - // CONDICIONAL INICIADO
+  - REGAR area
+  - // FIN DE BLOQUE
+
+=== Probando: error_lexico.chc ===
+❌ ERROR: Línea 1, columna 14: carácter no reconocido '@'
+
+=== Probando: error_semantico.chc ===
+❌ ERROR: Línea 1, columna 7: la variable 'humedad' no está definida.
+
+=== Probando: error_sintactico.chc ===
+❌ ERROR: Línea 2, columna 9: Se esperaba 'fin' para cerrar el bloque 'repetir'
+
+=== Probando: nuevo1.chc ===
+✅ COMPILACIÓN EXITOSA
+Comandos generados:
+
+=== Probando: nuevo2.chc ===
+✅ COMPILACIÓN EXITOSA
+Comandos generados:
+
+=== Probando: nuevo3.chc ===
+✅ COMPILACIÓN EXITOSA
+Comandos generados:
+
