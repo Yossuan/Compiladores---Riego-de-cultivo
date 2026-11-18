@@ -1,6 +1,6 @@
 # Bitácora del Proyecto ChocóCode
 
-## [Fecha de hoy] - Yossuan (Análisis Léxico y Pruebas)
+## Yossuan (Análisis Léxico y Pruebas)
 
 **1. Decisiones de diseño (Análisis Léxico):**
 *   Se implementó el analizador léxico en el archivo `src/lexico.php`.
