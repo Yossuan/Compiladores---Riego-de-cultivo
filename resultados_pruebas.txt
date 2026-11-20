@@ -34,12 +34,11 @@ Comandos generados:
 === Probando: nuevo1.chc ===
 ✅ COMPILACIÓN EXITOSA
 Comandos generados:
+  - REGAR area
 
 === Probando: nuevo2.chc ===
-✅ COMPILACIÓN EXITOSA
-Comandos generados:
+❌ ERROR: Línea 2, columna 1: Se esperaba un identificador después de 'medir'
 
 === Probando: nuevo3.chc ===
-✅ COMPILACIÓN EXITOSA
-Comandos generados:
+❌ ERROR: Línea 1, columna 7: Se esperaba un número o una variable
 
