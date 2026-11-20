@@ -1,4 +1,4 @@
-### Guía de Ejecución para el Docente
+### Guía de Ejecución 
 
 Requisitos
  Tener PHP instalado (o usar XAMPP).
